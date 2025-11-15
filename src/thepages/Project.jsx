@@ -1,13 +1,15 @@
-export default function Project() {
+export default function Project({ projects }) {
   return (
     <section className="p-8">
       <h2 className="text-2xl font-semibold">My Projects</h2>
+
       <ul className="mt-4 space-y-2">
-        <h6>About this Project</h6>
-        <li>🌐 Personal Portfolio Website</li>
-        <li>📱 React Native App Demo</li>
-        <li>💻 Simple REST API using JSON Server</li>
-        <li> My Github Account: luckymalombeke26@gmail.com</li>
+        <h6 className="font-semibold">About this Project</h6>
+
+        {/* Loop dari JSON Server */}
+        {projects && projects.map((item) => (
+          <li key={item.id}>• {item.title}</li>
+        ))}
       </ul>
     </section>
   );
