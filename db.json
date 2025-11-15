@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Edward Lucky Malombeke",
+    "profession": "Mahasiswa Informatika",
+    "bio": "Seorang mahasiswa Informatika yang tertarik pada pengembangan web, desain UI/UX, dan teknologi berbasis React.",
+    "location": "Indonesia",
+    "email": "luckymalombeke30@gmail.com",
+    "phone": "+62 812-3456-7890",
+    "photo": "/src/assets/image/myimage.jpg"
+  },
+  "skills": [
+    { "name": "HTML", "level": "Advanced" },
+    { "name": "CSS", "level": "Advanced" },
+    { "name": "JavaScript", "level": "Intermediate" },
+    { "name": "React.js", "level": "Intermediate" },
+    { "name": "Node.js", "level": "Beginner" },
+    { "name": "Git & GitHub", "level": "Intermediate" }
+  ],
+  "projects": [
+    {
+      "title": "Portofolio Website",
+      "description": "Website pribadi untuk menampilkan profil dan proyek-proyek saya menggunakan React dan Vite.",
+      "technologies": ["React", "Vite", "CSS"],
+      "link": "https://github.com/edwardlucky/portfolio"
+    },
+    {
+      "title": "Sistem Informasi Kampus",
+      "description": "Aplikasi web sederhana untuk mengelola data mahasiswa dan dosen.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Firebase"],
+      "link": "https://github.com/edwardlucky/sistem-informasi"
+    }
+  ],
+  "contacts": {
+    "instagram": "https://instagram.com/edwardlucky",
+    "github": "https://github.com/edwardlucky",
+    "linkedin": "https://linkedin.com/in/edwardlucky"
+  }
+}
