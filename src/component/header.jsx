@@ -5,7 +5,7 @@ export default function Header() {
     <header className="bg-blue-600 text-white p-4 fixed w-full top-0 z-50 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
 
-        <h1 className="text-xl font-bold">My Portfolio</h1>
+        <h1 className="text-xl font-bold">My Portofolio</h1>
 
         <nav className="space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
