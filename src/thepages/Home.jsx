@@ -6,7 +6,7 @@ export default function Home({ profile }) {
       <img 
         src={myImage} 
         alt="My Profile" 
-        className="mx-auto w-48 rounded-lg shadow"
+        className="mx-auto h-[500px] w-auto rounded-lg shadow object-cover"
       />
       <h1>Welcome to My Portofolio</h1>
     </div>
