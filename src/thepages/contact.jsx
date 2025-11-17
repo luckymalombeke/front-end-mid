@@ -11,7 +11,7 @@ export default function Contact({ contacts }) {
         <li><strong>Email:</strong> {contacts.email}</li>
         <li><strong>Phone:</strong> {contacts.phone}</li>
 
-        <li><strong>Instagram</strong>
+        <li><strong>Instagram:</strong>
           <a 
             href={contacts.instagram}
             target="_blank"
