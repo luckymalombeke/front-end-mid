@@ -15,10 +15,10 @@ const useFetchData = () => {
   useEffect(() => {
     // Ambil semua data dari API json-server
     Promise.all([
-      axios.get("http://localhost:5000/profile"),
-      axios.get("http://localhost:5000/projects"),
-      axios.get("http://localhost:5000/skills"),
-      axios.get("http://localhost:5000/contacts")
+      axios.get("http://localhost:3000/profile"),
+      axios.get("http://localhost:3000/projects"),
+      axios.get("http://localhost:3000/skills"),
+      axios.get("http://localhost:3000/contacts")
     ])
       .then(([profileRes, projectsRes, skillsRes, contactsRes]) => {
         setData({
