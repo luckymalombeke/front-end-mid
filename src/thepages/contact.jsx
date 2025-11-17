@@ -10,8 +10,29 @@ export default function Contact({ contacts }) {
       <ul className="mt-3 space-y-2 text-gray-700">
         <li><strong>Email:</strong> {contacts.email}</li>
         <li><strong>Phone:</strong> {contacts.phone}</li>
-        <li><strong>Instagram:</strong> {contacts.instagram}</li>
-        <li><strong>GitHub:</strong> {contacts.github}</li>
+
+        <li><strong>Instagram</strong>
+          <a 
+            href={contacts.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            {contacts.instagram}
+          </a>
+        </li>
+
+        <li>
+          <strong>GitHub:</strong>{" "}
+          <a 
+            href={contacts.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            {contacts.github}
+          </a>
+        </li>
       </ul>
     </section>
   );
